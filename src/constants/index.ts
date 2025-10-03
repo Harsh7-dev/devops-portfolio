@@ -89,8 +89,12 @@ export const CERTS: Certification[] = [
 ];
 
 export const EDUCATION: Education[] = [
-  { school: "California State University, East Bay", program: "MS, Computer Science", period: "2023 – 2025" },
-  { school: "Gujarat Technological University", program: "B.E. Computer Engineering", period: "2018 – 2022" },
+  { 
+    school: "California State University, East Bay", 
+    program: "MS, Computer Science", 
+    period: "2023 – 2025",
+    coursework: ["Cloud Computing", "Cyber Security", "Advanced Algorithms", "Web Systems", "Advanced Software Engineering"]
+  },
 ];
 
 export const SKILLS = {

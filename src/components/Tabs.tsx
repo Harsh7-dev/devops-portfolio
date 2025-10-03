@@ -182,11 +182,30 @@ export function Tabs() {
       )}
 
       {tab === 'education' && (
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px,1fr))', gap: 12 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(400px,1fr))', gap: 12 }}>
           {EDUCATION.map((e, i) => (
             <Card key={i}>
-              <div style={{ fontWeight: 600 }}>{e.school}</div>
-              <div style={{ fontSize: 12, opacity: 0.7 }}>{e.program} · {e.period}</div>
+              <div style={{ fontWeight: 600, marginBottom: 8 }}>{e.school}</div>
+              <div style={{ fontSize: 12, opacity: 0.7, marginBottom: 12 }}>{e.program} · {e.period}</div>
+              {e.coursework && (
+                <div>
+                  <div style={{ fontSize: 12, fontWeight: 600, marginBottom: 8, color: '#374151' }}>Relevant Coursework:</div>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+                    {e.coursework.map((course, j) => (
+                      <span key={j} style={{
+                        padding: '4px 8px',
+                        background: 'rgba(59, 130, 246, 0.1)',
+                        color: '#3b82f6',
+                        borderRadius: 12,
+                        fontSize: 11,
+                        fontWeight: 500
+                      }}>
+                        {course}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
             </Card>
           ))}
         </div>

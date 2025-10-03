@@ -34,6 +34,7 @@ export interface Education {
   school: string;
   program: string;
   period: string;
+  coursework?: string[];
 }
 
 export interface UIConfig {

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Github, Linkedin, Mail, FileDown, DollarSign, GitBranch, Lock, Activity, Server, GraduationCap, Award, Trophy, Shield, Download } from "lucide-react";
-import { CERTS } from '../constants';
+import { CERTS, EDUCATION } from '../constants';
 
 // CONFIG for contact links
 const CONFIG = {
@@ -273,26 +273,36 @@ export default function AboutSection() {
                   Education
                 </div>
                 <div style={{ fontSize: 13, color: "#6b7280", lineHeight: 1.4 }}>
-                  <div style={{ marginBottom: 12 }}>
-                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 2 }}>
-                      <strong style={{ color: "#111827", fontSize: 14 }}>M.S. Computer Science</strong>
-                      <span style={{ color: "#059669", fontWeight: 500, fontSize: 12 }}>2023-2025</span>
+                  {EDUCATION.map((edu, index) => (
+                    <div key={index} style={{ marginBottom: 16 }}>
+                      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 2 }}>
+                        <strong style={{ color: "#111827", fontSize: 14 }}>{edu.program}</strong>
+                        <span style={{ color: "#059669", fontWeight: 500, fontSize: 12 }}>{edu.period}</span>
+                      </div>
+                      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 8 }}>
+                        <span style={{ color: "#6b7280" }}>{edu.school}</span>
+                      </div>
+                      {edu.coursework && (
+                        <div>
+                          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4, alignItems: 'center', marginBottom: 6 }}>
+                            <span style={{ fontSize: 11, fontWeight: 600, color: "#374151", marginRight: 4 }}>Relevant Coursework:</span>
+                            {edu.coursework.map((course, j) => (
+                              <span key={j} style={{
+                                padding: '2px 6px',
+                                background: 'rgba(59, 130, 246, 0.1)',
+                                color: '#3b82f6',
+                                borderRadius: 8,
+                                fontSize: 10,
+                                fontWeight: 500
+                              }}>
+                                {course}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
                     </div>
-                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
-                      <span style={{ color: "#6b7280" }}>California State University, East Bay</span>
-                      <span style={{ color: "#059669", fontWeight: 500, fontSize: 12 }}>3.6 GPA</span>
-                    </div>
-                  </div>
-                  <div>
-                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 2 }}>
-                      <strong style={{ color: "#111827", fontSize: 14 }}>B.E. Information Technology</strong>
-                      <span style={{ color: "#059669", fontWeight: 500, fontSize: 12 }}>2017-2021</span>
-                    </div>
-                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
-                      <span style={{ color: "#6b7280" }}>Gujarat Technological University (GTU)</span>
-                      <span style={{ color: "#059669", fontWeight: 500, fontSize: 12 }}>3.58 CGPA</span>
-                    </div>
-                  </div>
+                  ))}
                 </div>
               </div>
 
