@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Kubernetes Multi-Cluster Management Platform",
+    "description": "A comprehensive platform for managing multiple Kubernetes clusters across different cloud providers with centralized monitoring, policy enforcement, and automated scaling.",
+    "url": "https://github.com/harshpatel-devops/k8s-multi-cluster-platform",
+    "demo": "https://k8s-platform-demo.vercel.app",
+    "topics": ["kubernetes", "golang", "terraform", "prometheus", "grafana"],
+    "stars": 127,
+    "updatedAt": "2025-01-15T10:30:00Z",
+    "tech": ["Go", "Kubernetes", "Terraform", "Prometheus", "Grafana", "AWS", "GCP"]
+  },
+  {
+    "title": "Terraform AWS Infrastructure Templates",
+    "description": "Production-ready Terraform modules for AWS infrastructure including VPC, EKS, RDS, and monitoring setup with best practices and security compliance.",
+    "url": "https://github.com/harshpatel-devops/terraform-aws-templates",
+    "demo": "",
+    "topics": ["terraform", "aws", "iac", "devops", "security"],
+    "stars": 89,
+    "updatedAt": "2025-01-12T14:20:00Z",
+    "tech": ["Terraform", "AWS", "Python", "Bash", "Docker"]
+  },
+  {
+    "title": "CI/CD Pipeline Automation Suite",
+    "description": "Comprehensive CI/CD automation using GitHub Actions, GitLab CI, and Jenkins with support for multiple languages, testing frameworks, and deployment strategies.",
+    "url": "https://github.com/harshpatel-devops/cicd-automation-suite",
+    "demo": "",
+    "topics": ["cicd", "github-actions", "jenkins", "docker", "kubernetes"],
+    "stars": 156,
+    "updatedAt": "2025-01-10T09:15:00Z",
+    "tech": ["GitHub Actions", "Jenkins", "Docker", "Kubernetes", "Python", "YAML"]
+  },
+  {
+    "title": "Monitoring and Observability Stack",
+    "description": "Complete monitoring solution with Prometheus, Grafana, Jaeger, and ELK stack for comprehensive application and infrastructure observability.",
+    "url": "https://github.com/harshpatel-devops/monitoring-observability-stack",
+    "demo": "https://monitoring-demo.harshpatel.dev",
+    "topics": ["monitoring", "prometheus", "grafana", "jaeger", "elk", "observability"],
+    "stars": 203,
+    "updatedAt": "2025-01-08T16:45:00Z",
+    "tech": ["Prometheus", "Grafana", "Jaeger", "Elasticsearch", "Kibana", "Docker"]
+  },
+  {
+    "title": "AWS EKS Security Hardening",
+    "description": "Security hardening scripts and policies for AWS EKS clusters including pod security policies, network policies, and RBAC configurations.",
+    "url": "https://github.com/harshpatel-devops/eks-security-hardening",
+    "demo": "",
+    "topics": ["aws", "eks", "kubernetes", "security", "rbac", "networking"],
+    "stars": 94,
+    "updatedAt": "2025-01-05T11:30:00Z",
+    "tech": ["AWS", "EKS", "Kubernetes", "Terraform", "Bash", "YAML"]
+  },
+  {
+    "title": "Container Registry Management Tool",
+    "description": "Tool for managing multiple container registries (Docker Hub, AWS ECR, GCR) with automated vulnerability scanning and cleanup policies.",
+    "url": "https://github.com/harshpatel-devops/container-registry-manager",
+    "demo": "",
+    "topics": ["docker", "containers", "security", "automation", "aws", "gcp"],
+    "stars": 67,
+    "updatedAt": "2025-01-03T13:20:00Z",
+    "tech": ["Python", "Docker", "AWS CLI", "GCP CLI", "Trivy", "Bash"]
+  },
+  {
+    "title": "Infrastructure Cost Optimization Dashboard",
+    "description": "Real-time dashboard for tracking and optimizing cloud infrastructure costs across AWS, GCP, and Azure with automated recommendations.",
+    "url": "https://github.com/harshpatel-devops/cost-optimization-dashboard",
+    "demo": "https://cost-dashboard.harshpatel.dev",
+    "topics": ["cost-optimization", "aws", "gcp", "azure", "dashboard", "automation"],
+    "stars": 145,
+    "updatedAt": "2024-12-30T08:15:00Z",
+    "tech": ["React", "Node.js", "AWS SDK", "GCP SDK", "Azure SDK", "PostgreSQL"]
+  },
+  {
+    "title": "GitOps Workflow Automation",
+    "description": "Complete GitOps implementation using ArgoCD, Flux, and custom operators for automated deployment and configuration management.",
+    "url": "https://github.com/harshpatel-devops/gitops-workflow-automation",
+    "demo": "",
+    "topics": ["gitops", "argocd", "flux", "kubernetes", "automation", "cicd"],
+    "stars": 112,
+    "updatedAt": "2024-12-28T15:40:00Z",
+    "tech": ["ArgoCD", "Flux", "Kubernetes", "Helm", "Git", "YAML"]
+  }
+]

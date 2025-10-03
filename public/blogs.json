@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Kubernetes Services: ClusterIP vs NodePort vs LoadBalancer",
+    "summary": "Deep dive into Kubernetes service types, when to use each, and common networking gotchas in production environments.",
+    "url": "https://medium.com/@harshpatel/k8s-services-complete-guide",
+    "topics": ["kubernetes", "networking", "containers"],
+    "publishedAt": "2025-01-15"
+  },
+  {
+    "title": "Terraform Best Practices for Multi-Environment Deployments",
+    "summary": "Learn how to structure Terraform modules, manage state files, and implement proper CI/CD workflows across dev, staging, and production.",
+    "url": "https://medium.com/@harshpatel/terraform-best-practices",
+    "topics": ["terraform", "iac", "cicd", "aws"],
+    "publishedAt": "2025-01-10"
+  },
+  {
+    "title": "Building Resilient CI/CD Pipelines with GitHub Actions",
+    "summary": "Comprehensive guide to creating robust, scalable CI/CD pipelines with proper error handling, security, and performance optimization.",
+    "url": "https://medium.com/@harshpatel/github-actions-cicd-guide",
+    "topics": ["cicd", "github-actions", "automation", "devops"],
+    "publishedAt": "2025-01-05"
+  },
+  {
+    "title": "AWS EKS Cluster Security: A Complete Implementation Guide",
+    "summary": "Step-by-step guide to securing your EKS clusters with IAM roles, network policies, pod security standards, and monitoring.",
+    "url": "https://medium.com/@harshpatel/eks-security-guide",
+    "topics": ["aws", "eks", "kubernetes", "security"],
+    "publishedAt": "2024-12-28"
+  },
+  {
+    "title": "Prometheus and Grafana: Building Production-Ready Monitoring",
+    "summary": "Set up comprehensive monitoring with Prometheus metrics collection, Grafana dashboards, and alerting for your infrastructure.",
+    "url": "https://medium.com/@harshpatel/prometheus-grafana-setup",
+    "topics": ["monitoring", "prometheus", "grafana", "observability"],
+    "publishedAt": "2024-12-20"
+  },
+  {
+    "title": "Docker Multi-Stage Builds: Optimizing Container Images",
+    "summary": "Learn how to create efficient Docker images using multi-stage builds, reducing image size and improving security.",
+    "url": "https://medium.com/@harshpatel/docker-multistage-builds",
+    "topics": ["docker", "containers", "optimization", "security"],
+    "publishedAt": "2024-12-15"
+  },
+  {
+    "title": "Implementing GitOps with ArgoCD: A Practical Guide",
+    "summary": "Complete walkthrough of setting up GitOps workflows using ArgoCD for automated Kubernetes deployments and configuration management.",
+    "url": "https://medium.com/@harshpatel/gitops-argocd-guide",
+    "topics": ["gitops", "argocd", "kubernetes", "automation", "cicd"],
+    "publishedAt": "2024-12-10"
+  },
+  {
+    "title": "AWS Cost Optimization: Strategies That Actually Work",
+    "summary": "Practical strategies for reducing AWS costs including reserved instances, spot instances, and automated resource scheduling.",
+    "url": "https://medium.com/@harshpatel/aws-cost-optimization",
+    "topics": ["aws", "cost-optimization", "automation", "cloud"],
+    "publishedAt": "2024-12-05"
+  }
+]
